@@ -1,0 +1,211 @@
+          * {
+              margin: 0;
+              padding: 0;
+              border: none;
+          }
+          
+          body {
+              background-image: url("collage.jpg");
+              background-attachment: fixed;
+              padding: 30px;
+              box-shadow: 0 3px 0 #ccc;
+              margin: auto;
+              height: 100%;
+          }
+          
+          h1 {
+              font-family: "Baloo Chettan", Arial, Serif, "Sans Serif";
+              text-align: left;
+              font-size: 55px;
+              text-shadow: 3px 3px 3px #49274a;
+          }
+          
+          #navigbar {
+              display: block;
+              list-style-type: none;
+              background: #e6f9ff;
+              margin-left: 0px;
+              border-radius: 0px;
+              box-shadow: 1px 1px 2px #49274a;
+              padding: 5px;
+              margin-top: 5px;
+              margin-bottom: -5px;
+              max-width: 1130px;
+              min-width: 730px;
+              margin: auto;
+          }
+          
+          #navigbar li {
+              display: inline-block;
+              padding-left: 15px;
+              padding-right: 15px;
+              font-size: 125%;
+          }
+          
+          #active {
+              color: #990099;
+              text-shadow: 1px 1px 1px #49274a;
+          }
+          
+          .diffcolor {
+              color: #FF7F50;
+          }
+          
+          .title {
+              color: #fff;
+              display: inline-block;
+              border: 3px solid white;
+              padding: 15px;
+              background-color: #e6f9ff;
+              margin-bottom: 5px;
+              margin-top: 5px;
+              border-radius: 10px;
+              box-shadow: 1px 1px 4px black;
+              margin-left: 80px;
+          }
+          
+          .sub-title {
+              color: #FF7F50;
+              display: inline-block;
+              border: 3px solid white;
+              padding: 15px;
+              background-color: #e6f9ff;
+              margin-bottom: 5px;
+              margin-top: 5px;
+              border-radius: 10px;
+              box-shadow: 1px 1px 4px black;
+              margin-left: 20px;
+          }
+          
+          .title:hover {
+              box-shadow: 5px 5px 5px #49274a;
+          }
+          
+          .space-about {
+              max-width: 1100px;
+              height: auto;
+              padding: 20px;
+              background: #e6f9ff;
+              margin: auto;
+              margin-top: 3px;
+              box-shadow: 1px 1px 2px #49274a;
+              border-radius: 0px;
+              min-width: 700px;
+              margin-bottom: 20px;
+          }
+          
+          .about {
+              height: auto;
+              width: auto;
+              color: #F4decb;
+              display: inline-block;
+              text-align: center;
+              padding: 0.3em;
+              margin: 0px auto auto 15px;
+              font-size: 28px;
+              border: 1px solid #94618e;
+              border-top-left-radius: 10px;
+              border-bottom-right-radius: 10px;
+              background: #49274a;
+              box-shadow: 2px 2px 2px #94618e;
+              font-family: "Baloo Chettan", Arial, Serif, "Sans Serif";
+              text-decoration: none;
+          }
+          
+          .tbp {
+              color: #990099;
+              text-align: left;
+              font-family: "Amatic SC", Arial, Serif, "Sans Serif";
+              font-size: 27px;
+              display: block;
+              margin-left: 140px;
+          }
+          
+          .footer-links {
+              max-width: 230px;
+              border: 3px solid white;
+              background: #e6f9ff;
+              text-align: center;
+              margin: auto;
+          }
+          
+          .footer-links a {
+              transition: text-shadow 0.3s ease-in, color 0.3s ease-in;
+              text-decoration: none;
+              font-size: 18px;
+              padding: 10px;
+              color: #FF7F50;
+              font-family: "Ubuntu", Arial, Serif, "Sans Serif";
+          }
+          
+          .footer-links a:hover {
+              color: #cc00cc;
+              text-shadow: 1px 1px 1px #49274a;
+          }
+          
+          ul {
+              list-style-type: disc;
+              margin-left: 50px;
+              margin-top: 5px;
+          }
+          
+          ul a {
+              text-decoration: none;
+              font-size: 18px;
+              margin-left: -3px;
+              color: #49274a;
+              transition: text-shadow 0.3s ease-in, color 0.3s ease-in;
+              font-family: "Ubuntu", Arial, Serif, "Sans Serif";
+          }
+          
+          ul li {
+              padding: 5px;
+          }
+          
+          ul a:hover {
+              color: #cc00cc;
+              text-shadow: 1px 1px 1px #49274a;
+          }
+          
+          .dropbtn {
+              display: inline-block;
+              color: black;
+              text-align: center;
+              padding: 14px 14px;
+              text-decoration: none;
+              font-weight: strong;
+          }
+          
+          .dropdown:hover .dropbtn {
+              background: #e6f9ff;
+              text-shadow: 5px;
+          }
+          
+          li.dropdown {
+              display: inline-block;
+          }
+          
+          .dropdown-content {
+              display: none;
+              position: absolute;
+              background: #ffe0cc;
+              min-width: 130px;
+              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+              z-index: 1;
+          }
+          
+          .dropdown-content a {
+              color: black;
+              padding: 12px 10px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+          }
+          
+          .dropdown-content a:hover {
+              background-color: #b3edff;
+          }
+          
+          .dropdown:hover .dropdown-content {
+              display: block;
+          }
