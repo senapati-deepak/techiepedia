@@ -2,10 +2,10 @@
 
 It is a basic and static web-page which was used to learn basics of front-end.
 
-###Technologies Used
+### Technologies Used
 
-*HTML
-*CSS
+* HTML
+* CSS
 
-##Author
+## Author
 [Deepak Senapati][https://github.com/Deepak345]
